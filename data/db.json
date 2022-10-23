@@ -1,0 +1,258 @@
+{
+    "quiz": {
+        "quizId": "x42kew",
+        "title": "What cheese are you?",
+        "subtitle": "This quiz isn't cheesy or anything...",
+        "content": [
+            {
+                "id": "0",
+                "text": "Pick a vacation destination",
+                "questions": [
+                    {
+                        "text": "New York",
+                        "image": "https://images.unsplash.com/photo-1541336032412-2048a678540d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80",
+                        "alt": "Top of the Rock, New York, United States",
+                        "credit": "Timo Wagner"
+                    },
+                    {
+                        "text": "Austin",
+                        "image": "https://images.unsplash.com/photo-1601579112934-17ac2aa86292?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1168&q=80",
+                        "alt": "Austin, TX, USA",
+                        "credit": "Megan Bucknall"
+                    },
+                    {
+                        "text": "New Orleans",
+                        "image": "https://images.unsplash.com/photo-1568693059993-a239b9cd4957?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
+                        "alt": "French Quarter, New Orleans, LA, USA",
+                        "credit": "Rosie Kerr"
+                    }
+                ]
+            },
+            {
+                "id": "1",
+                "text": "Pick your favorite food",
+                "questions": [
+                    {
+                        "text": "Pizza",
+                        "image": "https://images.unsplash.com/photo-1604382355076-af4b0eb60143?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+                        "alt": "pizza with sauce",
+                        "credit": "Shourav Sheikh"
+                    },
+                    {
+                        "text": "Sandwich",
+                        "image": "https://images.unsplash.com/photo-1627308595325-182f10f20126?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
+                        "alt": "Bagel Sandwich",
+                        "credit": "Vicky Ng"
+                    },
+                    {
+                        "text": "Pasta",
+                        "image": "https://images.unsplash.com/photo-1608897013039-887f21d8c804?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=692&q=80",
+                        "alt": "pasta with tomatoes",
+                        "credit": "Aleksandra Tanasiienko"
+                    },
+                    {
+                        "text": "Burger",
+                        "image": "https://images.unsplash.com/photo-1572802419224-296b0aeee0d9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1115&q=80",
+                        "alt": "double cheeseburger",
+                        "credit": "amirali mirhashemian"
+                    }
+                ]
+            },
+            {
+                "id": "2",
+                "text": "Pick a car brand",
+                "questions": [
+                    {
+                        "text": "Mercedes",
+                        "image": "https://images.unsplash.com/photo-1546518071-fddcdda7580a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80",
+                        "alt": "silver Mercedes",
+                        "credit": "Liam Martens"
+                    },
+                    {
+                        "text": "BMW",
+                        "image": "https://images.unsplash.com/flagged/photo-1553505192-acca7d4509be?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1190&q=80",
+                        "alt": "blue BMW",
+                        "credit": "Zan"
+                    },
+                    {
+                        "text": "Audi",
+                        "image": "https://images.unsplash.com/photo-1555652736-e92021d28a10?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+                        "alt": "black Audi",
+                        "credit": "Velito"
+                    },
+                    {
+                        "text": "Porsche",
+                        "image": "https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+                        "alt": "white Porsche",
+                        "credit": "Laurent Perren"
+                    }
+                ]
+            }
+        ],
+        "answers": [
+            {
+                "combination": ["New York", "Pizza", "Mercedes"],
+                "text": "Blue cheese",
+                "image": "",
+                "alt": "blue cheese"
+            },
+            {
+                "combination": ["New York", "Pizza", "Mercedes"],
+                "text": "Blue cheese",
+                "image": "",
+                "alt": "blue cheese"
+            },
+            {
+                "combination": ["New York", "Pizza", "Mercedes"],
+                "text": "Blue cheese",
+                "image": "",
+                "alt": "blue cheese"
+            },
+            {
+                "combination": ["New York", "Pizza", "Mercedes"],
+                "text": "Blue cheese",
+                "image": "",
+                "alt": "blue cheese"
+            },
+            {
+                "combination": ["New York", "Pizza", "Mercedes"],
+                "text": "Blue cheese",
+                "image": "",
+                "alt": "blue cheese"
+            },
+            {
+                "combination": ["New York", "Pizza", "Mercedes"],
+                "text": "Blue cheese",
+                "image": "",
+                "alt": "blue cheese"
+            },
+            {
+                "combination": ["New York", "Pizza", "Mercedes"],
+                "text": "Blue cheese",
+                "image": "",
+                "alt": "blue cheese"
+            },
+            {
+                "combination": ["New York", "Pizza", "Mercedes"],
+                "text": "Blue cheese",
+                "image": "",
+                "alt": "blue cheese"
+            },
+            {
+                "combination": ["New York", "Pizza", "Mercedes"],
+                "text": "Blue cheese",
+                "image": "",
+                "alt": "blue cheese"
+            },
+            {
+                "combination": ["New York", "Pizza", "Mercedes"],
+                "text": "Blue cheese",
+                "image": "",
+                "alt": "blue cheese"
+            },
+            {
+                "combination": ["New York", "Pizza", "Mercedes"],
+                "text": "Blue cheese",
+                "image": "",
+                "alt": "blue cheese"
+            },
+            {
+                "combination": ["New York", "Pizza", "Mercedes"],
+                "text": "Blue cheese",
+                "image": "",
+                "alt": "blue cheese"
+            },
+            {
+                "combination": ["New York", "Pizza", "Mercedes"],
+                "text": "Blue cheese",
+                "image": "",
+                "alt": "blue cheese"
+            },
+            {
+                "combination": ["New York", "Pizza", "Mercedes"],
+                "text": "Blue cheese",
+                "image": "",
+                "alt": "blue cheese"
+            },
+            {
+                "combination": ["New York", "Pizza", "Mercedes"],
+                "text": "Blue cheese",
+                "image": "",
+                "alt": "blue cheese"
+            },
+            {
+                "combination": ["New York", "Pizza", "Mercedes"],
+                "text": "Blue cheese",
+                "image": "",
+                "alt": "blue cheese"
+            },
+            {
+                "combination": ["New York", "Pizza", "Mercedes"],
+                "text": "Blue cheese",
+                "image": "",
+                "alt": "blue cheese"
+            },
+            {
+                "combination": ["New York", "Pizza", "Mercedes"],
+                "text": "Blue cheese",
+                "image": "",
+                "alt": "blue cheese"
+            },
+            {
+                "combination": ["New York", "Pizza", "Mercedes"],
+                "text": "Blue cheese",
+                "image": "",
+                "alt": "blue cheese"
+            },
+            {
+                "combination": ["New York", "Pizza", "Mercedes"],
+                "text": "Blue cheese",
+                "image": "",
+                "alt": "blue cheese"
+            },
+            {
+                "combination": ["New York", "Pizza", "Mercedes"],
+                "text": "Blue cheese",
+                "image": "",
+                "alt": "blue cheese"
+            },
+            {
+                "combination": ["New York", "Pizza", "Mercedes"],
+                "text": "Blue cheese",
+                "image": "",
+                "alt": "blue cheese"
+            },
+            {
+                "combination": ["New York", "Pizza", "Mercedes"],
+                "text": "Blue cheese",
+                "image": "",
+                "alt": "blue cheese"
+            },
+            {
+                "combination": ["New York", "Pizza", "Mercedes"],
+                "text": "Blue cheese",
+                "image": "",
+                "alt": "blue cheese"
+            },
+            {
+                "combination": ["New York", "Pizza", "Mercedes"],
+                "text": "Blue cheese",
+                "image": "",
+                "alt": "blue cheese"
+            },
+            {
+                "combination": ["New York", "Pizza", "Mercedes"],
+                "text": "Blue cheese",
+                "image": "",
+                "alt": "blue cheese"
+            },
+            {
+                "combination": ["New York", "Pizza", "Mercedes"],
+                "text": "Blue cheese",
+                "image": "",
+                "alt": "blue cheese"
+            }
+        ]
+    
+    }
+}
