@@ -7,10 +7,10 @@ import { isContentEditable } from "@testing-library/user-event/dist/utils";
 
 
 const App = () => {
-  const [quiz, setQuiz] = useState(false)
+  const [quiz, setQuiz] = useState(null)
   const [ chosenAnswerItems, setChosenAnswerItems ] = useState([])
-  const [ unansweredQuestionIds, setUnansweredQuestionIds ] = useState([])
-
+  const [ unansweredQuestionIds, setUnansweredQuestionIds ] = useState(null)
+  const[showAnswer, setShowAnswer] = useState(false)
 
   const fetchData = async () => {
     try {
@@ -26,10 +26,31 @@ const App = () => {
     fetchData()
   }, [])
 
+
   useEffect(() => {
     const unansweredIds = quiz?.content.map(({id}) => id)
     setUnansweredQuestionIds(unansweredIds)
 }, [quiz])
+
+
+
+useEffect(() => {
+  if (unansweredQuestionIds) {
+    if (unansweredQuestionIds.length <= 0 && chosenAnswerItems.length >= 1) {
+
+      setShowAnswer(true)
+      const answerBlock = document.getElementById('answer-block')
+      answerBlock?.scrollIntoView({ behavior: "smooth" })
+    }
+    
+    const highestId = Math.min(...unansweredQuestionIds)
+    const highestElement = document.getElementById(highestId)
+    highestElement?.scrollIntoView({ behavior: "smooth" })
+
+  }
+}, [unansweredQuestionIds, showAnswer, chosenAnswerItems])
+
+
 
 
   return (
@@ -40,7 +61,7 @@ const App = () => {
 
       />
 
-      {quiz && quiz?.content.map(contentItem => (
+      {quiz?.content?.map(contentItem => (
         <QuestionsBlock 
           key={contentItem.id}
           quizItem={contentItem} 
@@ -51,6 +72,12 @@ const App = () => {
           />
 
         ))}
+        {showAnswer && (
+          <AnswerBlock
+            answerOptions={quiz?.anwers}
+            chosenAnswers={chosenAnswerItems}
+          />
+        )}
     </div>
   );
 }
